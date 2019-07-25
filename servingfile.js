@@ -17,8 +17,8 @@ http.createServer((req,res)=>{
     }
     else{
         res.writeHead(404,{'Content-Type':'text/plain'});
-        res.end('data is not present sorry');
+        res.end();
     }
     
 }).listen(1234)
-console.log('Server get started');
+console.log('Server get started'); 
